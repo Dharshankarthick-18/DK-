@@ -1,0 +1,75 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16px;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef); /* Gradient background */
+    border-radius: 12px; /* Slightly larger rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+    transition: all 0.3s ease; /* Transition for hover effect on the container */
+  }
+  
+  .home-container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem; /* Larger font size for a bolder welcome */
+    color: #343a40;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  }
+  
+  .subheading {
+    font-size: 1.2rem; /* Increased font size for better visibility */
+    color: #6c757d;
+  }
+  
+  .image-container {
+    margin-top: 24px;
+  }
+  
+  .restaurant-image {
+    width: 100%; /* Make it responsive */
+    max-width: 350px; /* Limit max width */
+    border-radius: 12px; /* Match button rounding */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for image */
+  }
+  
+  .restaurant-image:hover {
+    transform: scale(1.1); /* Slightly increase scale */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .description {
+    margin-top: 24px;
+    text-align: center;
+    color: #495057;
+    font-size: 1.1rem; /* Increase font size for better readability */
+  }
+  
+  .menu-button {
+    margin-top: 24px;
+    padding: 12px 24px; /* Increased padding for a bigger button */
+    font-size: 1.1rem; /* Slightly larger font size */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: none; /* Remove border */
+    border-radius: 25px; /* Fully rounded button */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .menu-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .menu-button:focus {
+    outline: none; /* Remove outline */
+  }
+  

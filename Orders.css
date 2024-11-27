@@ -1,0 +1,74 @@
+/* Orders.css */
+
+.orders-container {
+    padding: 16px;
+  }
+  
+  .orders-title {
+    font-size: 2rem; /* Larger title for emphasis */
+    color: #343a40; /* Dark color for title */
+    margin-bottom: 16px; /* Space below the title */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .no-orders {
+    font-size: 1.2rem; /* Slightly larger font for the no orders message */
+    color: #6c757d; /* Medium grey for no orders text */
+    margin-top: 16px; /* Space above the no orders message */
+  }
+  
+  .order-item {
+    display: flex; /* Use flexbox for item layout */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center items vertically */
+    padding: 12px; /* Padding for order items */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between orders */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+  }
+  
+  .order-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .order-price {
+    color: #28a745; /* Green color for price */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .cancel-button {
+    background-color: #dc3545; /* Bootstrap red color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 12px; /* Padding for button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  .total-amount {
+    font-size: 1.5rem; /* Larger font for total amount */
+    color: #343a40; /* Dark color for total amount */
+    margin-top: 20px; /* Space above total amount */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .proceed-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    margin-top: 20px; /* Space above button */
+    padding: 12px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .proceed-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  

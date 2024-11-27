@@ -1,0 +1,74 @@
+/* Menu.css */
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .menu-title {
+    font-size: 2.5rem; /* Larger title for emphasis */
+    color: #343a40; /* Dark color for title */
+    margin-bottom: 16px; /* Space below the title */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .orders-button {
+    margin-bottom: 16px; /* Space below the button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 12px 20px; /* Padding for button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .orders-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  .dish-card {
+    width: 300px; /* Fixed width for cards */
+    margin-bottom: 20px; /* Space below each card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effects */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .dish-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .dish-name {
+    font-size: 1.5rem; /* Larger font size for dish name */
+    color: #495057; /* Color for dish name */
+  }
+  
+  .dish-description {
+    color: #6c757d; /* Medium grey for description */
+    margin: 8px 0; /* Spacing above and below */
+  }
+  
+  .dish-price {
+    font-size: 1.25rem; /* Slightly larger font size for price */
+    color: #28a745; /* Green color for price */
+    margin-bottom: 12px; /* Space below price */
+  }
+  
+  .order-button {
+    background-color: #28a745; /* Green for order button */
+    color: white;
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .order-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  

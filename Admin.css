@@ -1,0 +1,44 @@
+/* Admin.css */
+
+.admin-container {
+    padding: 16px; /* Add padding for overall layout */
+  }
+  
+  .admin-title {
+    font-weight: bold; /* Bold title */
+    color: #343a40; /* Dark text color */
+  }
+  
+  .inventory-section {
+    margin-bottom: 24px; /* Space between sections */
+  }
+  
+  .input-field {
+    margin: 8px 0; /* Add margin for input fields */
+  }
+  
+  .add-dish-button {
+    margin-top: 16px; /* Margin above button */
+    background-color: #28a745; /* Bootstrap success color */
+    color: #fff;
+  }
+  
+  .add-dish-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
+  .inventory-list {
+    margin-top: 16px; /* Margin above the inventory list */
+    border: 1px solid #dee2e6; /* Border around inventory list */
+    border-radius: 8px; /* Rounded corners */
+    padding: 8px; /* Padding inside the list */
+  }
+  
+  .transaction-section {
+    margin-top: 24px; /* Space above transactions */
+  }
+  
+  .transaction-item {
+    color: #495057; /* Darker gray for transaction items */
+  }
+  

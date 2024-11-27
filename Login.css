@@ -1,0 +1,78 @@
+/* Login.css */
+
+/* Style for the entire body to set a global background and font */
+body {
+    font-family: 'Arial', sans-serif; /* Set a clean font for the application */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #eef2f3; /* Light background for the overall page */
+}
+
+/* Style for the login container */
+.login-container {
+    background-color:rgb(174, 230, 254); /* White background for the form container */
+    border-radius: 9px; /* Rounded corners */
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+    padding: 110px; /* Increased padding for a more spacious layout */
+    width: 400px; /* Fixed width for the form */
+    text-align: center; /* Center-align text */
+    margin: auto; /* Center the form horizontally */
+    margin-top: 70px; /* Space from the top of the page */
+}
+
+/* Style for the title */
+.login-title {
+    color: #ff4203; /* Darker text color for contrast */
+    margin-bottom: 30px; /* Space below the title */
+    font-size: 94px; /* Increased font size for visibility */
+    font-weight:bolder; /* Bold font weight for emphasis */
+}
+
+/* Style for the text fields */
+.login-input {
+    margin: 25px 0; /* Space between input fields */
+    width: 100%; /* Full width for inputs */
+}
+
+/* Style for the error message */
+.error-message {
+    color: #d32f2f; /* Red color for error messages */
+    margin: 15px 0; /* Space around the error message */
+    font-size: 14px; /* Slightly larger font size for readability */
+}
+
+/* Style for the login button */
+.login-button {
+    background-color: #3f51b5; /* Primary color for button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover effect for the button */
+.login-button:hover {
+    background-color: #303f9f; /* Darker shade on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .login-container {
+        width: 100%; /* Full width on smaller screens */
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+}
+
+/* Optional: Style for links (if you have any) */
+.login-link {
+    color: #3f51b5; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Font size for links */
+}
+
+.login-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
